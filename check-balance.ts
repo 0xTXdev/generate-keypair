@@ -5,7 +5,7 @@ import {
   clusterApiUrl,
 } from "@solana/web3.js";
 
-const connection = new Connection(clusterApiUrl("mainnet-beta"));
+const connection = new Connection("http://127.0.0.1:8899", "confirmed");
 
 const publicKey = new PublicKey("86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY");
 
